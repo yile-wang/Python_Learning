@@ -1,0 +1,7 @@
+import pandas as pd
+import numpy as np
+import os
+
+df=pd.read_excel(r'C:\Users\yile.wang\Desktop\py\PYTHON-RFM实战数据.xlsx',encoding='utf-8')
+df.head()
+df['订单状态'].unique()
